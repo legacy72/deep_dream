@@ -5,7 +5,7 @@ from functions import *
 from models_config import Model
 
 
-IMAGE_NAME = 'tolik.jpg'
+IMAGE_NAME = 'kek.jpg'
 IMAGE_SAVE_PATH = 'images'
 IMAGE_BASE_PATH = 'D:\images'
     
@@ -33,8 +33,8 @@ if __name__ == '__main__':
     m = Model()
     """choose model"""
     # m.inception_model()
-    # m.vgg16_model()
-    m.xception_model()
+    m.vgg16_model()
+    # m.xception_model()
     # m.resnet50_model()
     # m.mobilenet_v2_model()
     
